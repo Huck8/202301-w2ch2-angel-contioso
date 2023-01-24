@@ -16,9 +16,10 @@ function strictEquals(valueA, valueB) {
   if (isNaN(valueA) && isNaN(valueB)) {
     return false;
   }
-  if (Number(valueA) && Number(!valueB)) {
+  if (Number(!valueA) && Number(!valueB)) {
     return true;
   }
+  return Object.is(valueA, valueB);
 }
 
 console.log(strictEquals(1, 1));
