@@ -1,0 +1,26 @@
+{
+  "name": "2022301-w2ch2-angel-contioso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huck8/202301-w2ch2-angel-contioso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huck8/202301-w2ch2-angel-contioso/issues"
+  },
+  "homepage": "https://github.com/Huck8/202301-w2ch2-angel-contioso#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
